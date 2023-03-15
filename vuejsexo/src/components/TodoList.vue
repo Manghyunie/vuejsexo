@@ -23,7 +23,6 @@ export default {
   name: "TodoList",
   components: { NewTask, TaskItem },
   props: {
-    // msg: String
   },
   data() {
     return {
@@ -36,7 +35,6 @@ export default {
   },
   methods: {
     createNewTask(task) {
-      // adds a new task to the array
       let newTask = {
         taskTitle: task.newTaskTitle,
         taskDescription: task.newTaskDesc,
@@ -82,7 +80,7 @@ export default {
 
 <style scoped>
 .blue {
-  background-color: cornflowerblue;
+  background-color: rgb(204, 80, 231);
 }
   .filter-bar{
     display: flex;
